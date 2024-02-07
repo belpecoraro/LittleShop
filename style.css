@@ -1,0 +1,82 @@
+body{
+  background-color: #DDEAED;
+  color: #000000;
+  margin: 2rem;
+  font-family:'Pinyon Script', cursive;
+}
+h1{
+  text-align: center;
+  animation: colora 8s ease-in-out infinite;}
+}
+/*gem*/
+.gem {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f48e.png) 36 36, auto;
+}
+/*sparkle*/
+.sparkle {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/2728.png) 36 36, auto;
+}
+/*ring*/
+.ring {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f48d.png) 36 36, auto;
+}
+
+section{
+  display: flex;
+  padding: 2rem;
+}
+
+figure{
+  display:flex;
+  align-self: flex-start;
+  position: sticky;
+  top: 1rem;
+}
+
+img{
+  width: 480px;
+}
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+/*Color changing animation*/
+@keyframes colora{
+0%{color:#FFFFFF;}
+20%{color:#F0F8FF;}
+40%{color:#89CFF0;}
+60%{color:#0096FF;}
+80%{ color:#0000FF;}
+100%{color:#00008B}
+}
+
+button{
+  background-color:#F0F8FF;
+  color:#0000FF;
+  padding: 10px;
+  font-family:'Pinyon Script';
+}
